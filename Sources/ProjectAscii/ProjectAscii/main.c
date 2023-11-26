@@ -10,7 +10,7 @@ void changeToAscii(unsigned char* image, int width, int height) {
     int gray;
     int index;
 
-    for (int i = 0; i < height; i++) {
+    for (int i = height; i > 0; i--) {
         for (int j = 0; j < width; j++) {
             index = (i * width + j) * 3;
             // RGB 값을 흑백으로 변환
