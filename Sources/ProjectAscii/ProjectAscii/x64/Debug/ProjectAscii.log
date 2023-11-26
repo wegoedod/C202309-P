@@ -1,0 +1,7 @@
+﻿  main.c
+  jpeg.lib(jerror.obj) : /GL로 컴파일한 MSIL .netmodule 또는 모듈이 있습니다. /LTCG를 지정하여 링크를 다시 시작하십시오. /LTCG를 링크 명령줄에 추가하면 링커 성능이 향상됩니다.
+LINK : warning LNK4075: '/INCREMENTAL'이(가) '/LTCG' 사양으로 인해 무시됩니다.
+LINK : warning LNK4098: 'MSVCRT' defaultlib가 다른 라이브러리와 충돌합니다. /NODEFAULTLIB:library를 사용하십시오.
+  코드를 생성하고 있습니다.
+  코드를 생성했습니다.
+  ProjectAscii.vcxproj -> C:\Users\gksmf\OneDrive\바탕 화면\notebook\C\c202309-p\Sources\ProjectAscii\x64\Debug\ProjectAscii.exe

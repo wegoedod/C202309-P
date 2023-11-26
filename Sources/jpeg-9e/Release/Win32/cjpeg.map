@@ -1,0 +1,915 @@
+ cjpeg
+
+ Timestamp is 6561bca5 (Sat Nov 25 18:21:41 2023)
+
+ Preferred load address is 00400000
+
+ Start         Length     Name                   Class
+ 0001:00000000 0001f6baH .text$mn                CODE
+ 0002:00000000 0000011cH .idata$5                DATA
+ 0002:0000011c 00000008H .00cfg                  DATA
+ 0002:00000124 00000004H .CRT$XCA                DATA
+ 0002:00000128 00000004H .CRT$XCAA               DATA
+ 0002:0000012c 00000004H .CRT$XCZ                DATA
+ 0002:00000130 00000004H .CRT$XIA                DATA
+ 0002:00000134 00000004H .CRT$XIAA               DATA
+ 0002:00000138 00000004H .CRT$XIAC               DATA
+ 0002:0000013c 00000004H .CRT$XIZ                DATA
+ 0002:00000140 00000004H .CRT$XPA                DATA
+ 0002:00000144 00000004H .CRT$XPZ                DATA
+ 0002:00000148 00000004H .CRT$XTA                DATA
+ 0002:0000014c 00000004H .CRT$XTZ                DATA
+ 0002:00000150 00000000H .gfids$y                DATA
+ 0002:00000150 000010b0H .rdata                  DATA
+ 0002:00001200 00000000H .rdata$CastGuardVftablesA DATA
+ 0002:00001200 00000000H .rdata$CastGuardVftablesC DATA
+ 0002:00001200 00000004H .rdata$sxdata           DATA
+ 0002:00001204 0000005cH .rdata$voltmd           DATA
+ 0002:00001260 000002fcH .rdata$zzzdbg           DATA
+ 0002:0000155c 00000004H .rtc$IAA                DATA
+ 0002:00001560 00000004H .rtc$IZZ                DATA
+ 0002:00001564 00000004H .rtc$TAA                DATA
+ 0002:00001568 00000008H .rtc$TZZ                DATA
+ 0002:00001570 0000003cH .xdata$x                DATA
+ 0002:000015ac 00000000H .edata                  DATA
+ 0002:000015ac 000000b4H .idata$2                DATA
+ 0002:00001660 00000014H .idata$3                DATA
+ 0002:00001674 0000011cH .idata$4                DATA
+ 0002:00001790 00000550H .idata$6                DATA
+ 0003:00000000 00002368H .data                   DATA
+ 0003:00002368 00000378H .bss                    DATA
+ 0004:00000000 00000060H .rsrc$01                DATA
+ 0004:00000060 00000180H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___AbsoluteZero            00000000     <absolute>
+ 0000:00000000       ___arm64x_extra_rfe_table  00000000     <absolute>
+ 0000:00000000       ___arm64x_extra_rfe_table_size 00000000     <absolute>
+ 0000:00000000       ___arm64x_native_entrypoint 00000000     <absolute>
+ 0000:00000000       ___arm64x_redirection_metadata 00000000     <absolute>
+ 0000:00000000       ___arm64x_redirection_metadata_count 00000000     <absolute>
+ 0000:00000000       ___dynamic_value_reloc_table 00000000     <absolute>
+ 0000:00000000       ___enclave_config          00000000     <absolute>
+ 0000:00000000       ___guard_check_icall_a64n_fptr 00000000     <absolute>
+ 0000:00000000       ___guard_eh_cont_count     00000000     <absolute>
+ 0000:00000000       ___guard_eh_cont_table     00000000     <absolute>
+ 0000:00000000       ___guard_fids_count        00000000     <absolute>
+ 0000:00000000       ___guard_fids_table        00000000     <absolute>
+ 0000:00000000       ___guard_iat_count         00000000     <absolute>
+ 0000:00000000       ___guard_iat_table         00000000     <absolute>
+ 0000:00000000       ___guard_longjmp_count     00000000     <absolute>
+ 0000:00000000       ___guard_longjmp_table     00000000     <absolute>
+ 0000:00000000       ___hybrid_auxiliary_delayload_iat 00000000     <absolute>
+ 0000:00000000       ___hybrid_auxiliary_delayload_iat_copy 00000000     <absolute>
+ 0000:00000000       ___hybrid_auxiliary_iat    00000000     <absolute>
+ 0000:00000000       ___hybrid_auxiliary_iat_copy 00000000     <absolute>
+ 0000:00000000       ___hybrid_code_map         00000000     <absolute>
+ 0000:00000000       ___hybrid_code_map_count   00000000     <absolute>
+ 0000:00000000       ___hybrid_image_info_bitfield 00000000     <absolute>
+ 0000:00000000       ___x64_code_ranges_to_entry_points 00000000     <absolute>
+ 0000:00000000       ___x64_code_ranges_to_entry_points_count 00000000     <absolute>
+ 0000:00000001       ___safe_se_handler_count   00000001     <absolute>
+ 0000:00000100       ___guard_flags             00000100     <absolute>
+ 0000:00000000       ___ImageBase               00400000     <linker-defined>
+ 0001:00000000       _keymatch                  00401000 f   cdjpeg.obj
+ 0001:00000070       _write_stdout              00401070 f   cdjpeg.obj
+ 0001:000000b0       ___local_stdio_printf_options 004010b0 f i cjpeg.obj
+ 0001:000000c0       ___local_stdio_scanf_options 004010c0 f i cjpeg.obj
+ 0001:000000d0       _fprintf                   004010d0 f i cjpeg.obj
+ 0001:00000100       _sscanf                    00401100 f i cjpeg.obj
+ 0001:000011d0       _main                      004021d0 f   cjpeg.obj
+ 0001:00002320       @_guard_check_icall_nop@4  00403320 f   MSVCRT:guard_support.obj
+ 0001:00002320       __initialize_denormal_control 00403320 f   MSVCRT:denormal_control.obj
+ 0001:00002320       __initialize_invalid_parameter_handler 00403320 f   MSVCRT:invalid_parameter_handler.obj
+ 0001:00003930       _read_scan_script          00404930 f   rdswitch.obj
+ 0001:00004420       _jpeg_add_quant_table      00405420 f   jpeg:jcparam.obj
+ 0001:00004730       _jpeg_default_colorspace   00405730 f   jpeg:jcparam.obj
+ 0001:00004c20       _jpeg_set_colorspace       00405c20 f   jpeg:jcparam.obj
+ 0001:00005190       _jpeg_simple_progression   00406190 f   jpeg:jcparam.obj
+ 0001:00005530       _jpeg_destroy              00406530 f   jpeg:jcomapi.obj
+ 0001:00005530       _jpeg_destroy_compress     00406530 f   jpeg:jcapimin.obj
+ 0001:00005560       _jpeg_finish_compress      00406560 f   jpeg:jcapimin.obj
+ 0001:000056a0       _sprintf                   004066a0 f i jpeg:jerror.obj
+ 0001:00005960       _jpeg_stdio_dest           00406960 f   jpeg:jdatadst.obj
+ 0001:000059a0       _jpeg_start_compress       004069a0 f   jpeg:jcapistd.obj
+ 0001:00005ad0       _jpeg_write_scanlines      00406ad0 f   jpeg:jcapistd.obj
+ 0001:00005b90       _jpeg_std_huff_table       00406b90 f   jpeg:jcomapi.obj
+ 0001:00008840       _jpeg_calc_jpeg_dimensions 00409840 f   jpeg:jcinit.obj
+ 0001:00008de0       _jinit_compress_master     00409de0 f   jpeg:jcinit.obj
+ 0001:0000aa20       _jinit_c_prep_controller   0040ba20 f   jpeg:jcprepct.obj
+ 0001:0000b5c0       _jinit_downsampler         0040c5c0 f   jpeg:jcsample.obj
+ 0001:0000c610       _jinit_c_master_control    0040d610 f   jpeg:jcmaster.obj
+ 0001:0000d660       _jinit_color_converter     0040e660 f   jpeg:jccolor.obj
+ 0001:0000fe80       _jpeg_fdct_islow           00410e80 f   jpeg:jfdctint.obj
+ 0001:00010b40       _jpeg_fdct_7x7             00411b40 f   jpeg:jfdctint.obj
+ 0001:00011e80       _jpeg_fdct_6x6             00412e80 f   jpeg:jfdctint.obj
+ 0001:000128b0       _jpeg_fdct_5x5             004138b0 f   jpeg:jfdctint.obj
+ 0001:00012fa0       _jpeg_fdct_4x4             00413fa0 f   jpeg:jfdctint.obj
+ 0001:00013310       _jpeg_fdct_3x3             00414310 f   jpeg:jfdctint.obj
+ 0001:00013520       _jpeg_fdct_2x2             00414520 f   jpeg:jfdctint.obj
+ 0001:00013590       _jpeg_fdct_1x1             00414590 f   jpeg:jfdctint.obj
+ 0001:000135c0       _jpeg_fdct_9x9             004145c0 f   jpeg:jfdctint.obj
+ 0001:000142a0       _jpeg_fdct_10x10           004152a0 f   jpeg:jfdctint.obj
+ 0001:000146b0       _jpeg_fdct_11x11           004156b0 f   jpeg:jfdctint.obj
+ 0001:00014c00       _jpeg_fdct_12x12           00415c00 f   jpeg:jfdctint.obj
+ 0001:00015100       _jpeg_fdct_13x13           00416100 f   jpeg:jfdctint.obj
+ 0001:00015700       _jpeg_fdct_14x14           00416700 f   jpeg:jfdctint.obj
+ 0001:00015ca0       _jpeg_fdct_15x15           00416ca0 f   jpeg:jfdctint.obj
+ 0001:00016280       _jpeg_fdct_16x16           00417280 f   jpeg:jfdctint.obj
+ 0001:00016950       _jpeg_fdct_16x8            00417950 f   jpeg:jfdctint.obj
+ 0001:00017880       _jpeg_fdct_14x7            00418880 f   jpeg:jfdctint.obj
+ 0001:00018570       _jpeg_fdct_12x6            00419570 f   jpeg:jfdctint.obj
+ 0001:00018ea0       _jpeg_fdct_10x5            00419ea0 f   jpeg:jfdctint.obj
+ 0001:00019600       _jpeg_fdct_8x4             0041a600 f   jpeg:jfdctint.obj
+ 0001:00019a60       _jpeg_fdct_6x3             0041aa60 f   jpeg:jfdctint.obj
+ 0001:00019ea0       _jpeg_fdct_4x2             0041aea0 f   jpeg:jfdctint.obj
+ 0001:00019fc0       _jpeg_fdct_2x1             0041afc0 f   jpeg:jfdctint.obj
+ 0001:0001a000       _jpeg_fdct_8x16            0041b000 f   jpeg:jfdctint.obj
+ 0001:0001a530       _jpeg_fdct_7x14            0041b530 f   jpeg:jfdctint.obj
+ 0001:0001a9b0       _jpeg_fdct_6x12            0041b9b0 f   jpeg:jfdctint.obj
+ 0001:0001ad60       _jpeg_fdct_5x10            0041bd60 f   jpeg:jfdctint.obj
+ 0001:0001b080       _jpeg_fdct_4x8             0041c080 f   jpeg:jfdctint.obj
+ 0001:0001b9e0       _jpeg_fdct_3x6             0041c9e0 f   jpeg:jfdctint.obj
+ 0001:0001be80       _jpeg_fdct_2x4             0041ce80 f   jpeg:jfdctint.obj
+ 0001:0001bfd0       _jpeg_fdct_1x2             0041cfd0 f   jpeg:jfdctint.obj
+ 0001:0001c020       _jpeg_fdct_ifast           0041d020 f   jpeg:jfdctfst.obj
+ 0001:0001d1e0       _jpeg_fdct_float           0041e1e0 f   jpeg:jfdctflt.obj
+ 0001:0001e95f       @__security_check_cookie@4 0041f95f f   MSVCRT:secchk.obj
+ 0001:0001ebb4       _mainCRTStartup            0041fbb4 f   MSVCRT:exe_main.obj
+ 0001:0001ebbe       ___raise_securityfailure   0041fbbe f   MSVCRT:gs_report.obj
+ 0001:0001ebe6       ___report_gsfailure        0041fbe6 f   MSVCRT:gs_report.obj
+ 0001:0001ece0       ___report_rangecheckfailure 0041fce0 f   MSVCRT:gs_report.obj
+ 0001:0001ecec       ___report_securityfailure  0041fcec f   MSVCRT:gs_report.obj
+ 0001:0001edff       ___scrt_acquire_startup_lock 0041fdff f   MSVCRT:utility.obj
+ 0001:0001ee31       ___scrt_initialize_crt     0041fe31 f   MSVCRT:utility.obj
+ 0001:0001ee6a       ___scrt_initialize_onexit_tables 0041fe6a f   MSVCRT:utility.obj
+ 0001:0001eef1       ___scrt_is_nonwritable_in_current_image 0041fef1 f   MSVCRT:utility.obj
+ 0001:0001ef85       ___scrt_release_startup_lock 0041ff85 f   MSVCRT:utility.obj
+ 0001:0001efa2       ___scrt_uninitialize_crt   0041ffa2 f   MSVCRT:utility.obj
+ 0001:0001efca       __onexit                   0041ffca f   MSVCRT:utility.obj
+ 0001:0001eff7       _atexit                    0041fff7 f   MSVCRT:utility.obj
+ 0001:0001f059       ___security_init_cookie    00420059 f   MSVCRT:gs_support.obj
+ 0001:0001f0a4       ___scrt_exe_initialize_mta 004200a4 f   MSVCRT:utility_desktop.obj
+ 0001:0001f0a4       ___scrt_initialize_winrt   004200a4 f   MSVCRT:utility_desktop.obj
+ 0001:0001f0a4       ___scrt_stub_for_initialize_mta 004200a4 f   MSVCRT:utility_desktop.obj
+ 0001:0001f0a4       __get_startup_commit_mode  004200a4 f   MSVCRT:commit_mode.obj
+ 0001:0001f0a4       __get_startup_new_mode     004200a4 f   MSVCRT:new_mode.obj
+ 0001:0001f0a4       __get_startup_thread_locale_mode 004200a4 f   MSVCRT:thread_locale.obj
+ 0001:0001f0a4       __matherr                  004200a4 f   MSVCRT:matherr.obj
+ 0001:0001f0a7       __get_startup_argv_mode    004200a7 f   MSVCRT:argv_mode.obj
+ 0001:0001f0ab       __get_startup_file_mode    004200ab f   MSVCRT:file_mode.obj
+ 0001:0001f0b1       ?__scrt_initialize_type_info@@YAXXZ 004200b1 f   MSVCRT:tncleanup.obj
+ 0001:0001f0bd       ___acrt_initialize         004200bd f   MSVCRT:ucrt_stubs.obj
+ 0001:0001f0bd       ___acrt_uninitialize       004200bd f   MSVCRT:ucrt_stubs.obj
+ 0001:0001f0bd       ___scrt_stub_for_acrt_initialize 004200bd f   MSVCRT:ucrt_stubs.obj
+ 0001:0001f0bd       ___scrt_stub_for_acrt_uninitialize 004200bd f   MSVCRT:ucrt_stubs.obj
+ 0001:0001f0bd       ___vcrt_initialize         004200bd f   MSVCRT:ucrt_stubs.obj
+ 0001:0001f0bd       ___vcrt_uninitialize       004200bd f   MSVCRT:ucrt_stubs.obj
+ 0001:0001f0bd       __should_initialize_environment 004200bd f   MSVCRT:env_mode.obj
+ 0001:0001f0c0       __initialize_default_precision 004200c0 f   MSVCRT:default_precision.obj
+ 0001:0001f0e1       ___scrt_initialize_default_local_stdio_options 004200e1 f   MSVCRT:default_local_stdio_options.obj
+ 0001:0001f0fe       ___scrt_is_user_matherr_present 004200fe f   MSVCRT:matherr_detection.obj
+ 0001:0001f10a       ___scrt_get_dyn_tls_init_callback 0042010a f   MSVCRT:dyn_tls_init.obj
+ 0001:0001f110       ___scrt_get_dyn_tls_dtor_callback 00420110 f   MSVCRT:dyn_tls_dtor.obj
+ 0001:0001f116       ___scrt_fastfail           00420116 f   MSVCRT:utility_desktop.obj
+ 0001:0001f22b       ___scrt_initialize_mta     0042022b f   MSVCRT:utility_desktop.obj
+ 0001:0001f230       ___scrt_is_managed_app     00420230 f   MSVCRT:utility_desktop.obj
+ 0001:0001f272       ___scrt_set_unhandled_exception_filter 00420272 f   MSVCRT:utility_desktop.obj
+ 0001:0001f27e       ___scrt_unhandled_exception_filter@4 0042027e f   MSVCRT:utility_desktop.obj
+ 0001:0001f2d4       __crt_debugger_hook        004202d4 f   MSVCRT:utility_desktop.obj
+ 0001:0001f2dc       __RTC_Initialize           004202dc f   MSVCRT:initsect.obj
+ 0001:0001f308       __RTC_Terminate            00420308 f   MSVCRT:initsect.obj
+ 0001:0001f340       __SEH_prolog4              00420340 f   MSVCRT:sehprolg4.obj
+ 0001:0001f385       __except_handler4          00420385 f   MSVCRT:chandler4gs.obj
+ 0001:0001f3b4       ___isa_available_init      004203b4 f   MSVCRT:cpu_disp.obj
+ 0001:0001f588       ___scrt_is_ucrt_dll_in_use 00420588 f   MSVCRT:ucrt_detection.obj
+ 0001:0001f594       ___current_exception       00420594 f   vcruntime:VCRUNTIME140.dll
+ 0001:0001f59a       ___current_exception_context 0042059a f   vcruntime:VCRUNTIME140.dll
+ 0001:0001f5a0       _memset                    004205a0 f   vcruntime:VCRUNTIME140.dll
+ 0001:0001f5a6       __except_handler4_common   004205a6 f   vcruntime:VCRUNTIME140.dll
+ 0001:0001f5ac       _exit                      004205ac f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0001f5b2       __seh_filter_exe           004205b2 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0001f5b8       __set_app_type             004205b8 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0001f5be       ___setusermatherr          004205be f   ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0001:0001f5c4       __configure_narrow_argv    004205c4 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0001f5ca       __initialize_narrow_environment 004205ca f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0001f5d0       __get_initial_narrow_environment 004205d0 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0001f5d6       __initterm                 004205d6 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0001f5dc       __initterm_e               004205dc f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0001f5e2       __exit                     004205e2 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0001f5e8       __set_fmode                004205e8 f   ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0001:0001f5ee       ___p___argc                004205ee f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0001f5f4       ___p___argv                004205f4 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0001f5fa       __cexit                    004205fa f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0001f600       __c_exit                   00420600 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0001f606       __register_thread_local_exe_atexit_callback 00420606 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0001f60c       __configthreadlocale       0042060c f   ucrt:api-ms-win-crt-locale-l1-1-0.dll
+ 0001:0001f612       __set_new_mode             00420612 f   ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0001:0001f618       ___p__commode              00420618 f   ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0001:0001f61e       __initialize_onexit_table  0042061e f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0001f624       __register_onexit_function 00420624 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0001f62a       __crt_atexit               0042062a f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0001f630       __controlfp_s              00420630 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0001f636       _terminate                 00420636 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0001f63c       __filter_x86_sse2_floating_point_exception 0042063c f   MSVCRT:x86_exception_filter.obj
+ 0001:0001f63c       __filter_x86_sse2_floating_point_exception_default 0042063c f   MSVCRT:x86_exception_filter.obj
+ 0001:0001f6b4       _memcpy                    004206b4 f   vcruntime:VCRUNTIME140.dll
+ 0002:00000000       __imp__InitializeSListHead@4 00421000     kernel32:KERNEL32.dll
+ 0002:00000004       __imp__SetUnhandledExceptionFilter@4 00421004     kernel32:KERNEL32.dll
+ 0002:00000008       __imp__GetCurrentProcess@0 00421008     kernel32:KERNEL32.dll
+ 0002:0000000c       __imp__TerminateProcess@8  0042100c     kernel32:KERNEL32.dll
+ 0002:00000010       __imp__IsProcessorFeaturePresent@4 00421010     kernel32:KERNEL32.dll
+ 0002:00000014       __imp__QueryPerformanceCounter@4 00421014     kernel32:KERNEL32.dll
+ 0002:00000018       __imp__GetModuleHandleW@4  00421018     kernel32:KERNEL32.dll
+ 0002:0000001c       __imp__IsDebuggerPresent@0 0042101c     kernel32:KERNEL32.dll
+ 0002:00000020       __imp__UnhandledExceptionFilter@4 00421020     kernel32:KERNEL32.dll
+ 0002:00000024       __imp__GetSystemTimeAsFileTime@4 00421024     kernel32:KERNEL32.dll
+ 0002:00000028       __imp__GetCurrentThreadId@0 00421028     kernel32:KERNEL32.dll
+ 0002:0000002c       __imp__GetCurrentProcessId@0 0042102c     kernel32:KERNEL32.dll
+ 0002:00000030       \177KERNEL32_NULL_THUNK_DATA 00421030     kernel32:KERNEL32.dll
+ 0002:00000034       __imp__memset              00421034     vcruntime:VCRUNTIME140.dll
+ 0002:00000038       __imp____current_exception_context 00421038     vcruntime:VCRUNTIME140.dll
+ 0002:0000003c       __imp____current_exception 0042103c     vcruntime:VCRUNTIME140.dll
+ 0002:00000040       __imp___except_handler4_common 00421040     vcruntime:VCRUNTIME140.dll
+ 0002:00000044       __imp__memcpy              00421044     vcruntime:VCRUNTIME140.dll
+ 0002:00000048       \177VCRUNTIME140_NULL_THUNK_DATA 00421048     vcruntime:VCRUNTIME140.dll
+ 0002:0000004c       __imp__getenv              0042104c     ucrt:api-ms-win-crt-environment-l1-1-0.dll
+ 0002:00000050       \177api-ms-win-crt-environment-l1-1-0_NULL_THUNK_DATA 00421050     ucrt:api-ms-win-crt-environment-l1-1-0.dll
+ 0002:00000054       __imp__malloc              00421054     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:00000058       __imp__free                00421058     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:0000005c       __imp___set_new_mode       0042105c     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:00000060       \177api-ms-win-crt-heap-l1-1-0_NULL_THUNK_DATA 00421060     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:00000064       __imp___configthreadlocale 00421064     ucrt:api-ms-win-crt-locale-l1-1-0.dll
+ 0002:00000068       \177api-ms-win-crt-locale-l1-1-0_NULL_THUNK_DATA 00421068     ucrt:api-ms-win-crt-locale-l1-1-0.dll
+ 0002:0000006c       __imp____setusermatherr    0042106c     ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0002:00000070       \177api-ms-win-crt-math-l1-1-0_NULL_THUNK_DATA 00421070     ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0002:00000074       __imp___seh_filter_exe     00421074     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000078       __imp___initterm_e         00421078     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:0000007c       __imp___initialize_narrow_environment 0042107c     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000080       __imp___set_app_type       00421080     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000084       __imp____p___argc          00421084     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000088       __imp____p___argv          00421088     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:0000008c       __imp___configure_narrow_argv 0042108c     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000090       __imp___get_initial_narrow_environment 00421090     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000094       __imp___c_exit             00421094     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000098       __imp___register_thread_local_exe_atexit_callback 00421098     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:0000009c       __imp___exit               0042109c     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000a0       __imp__exit                004210a0     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000a4       __imp___initterm           004210a4     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000a8       __imp___initialize_onexit_table 004210a8     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000ac       __imp___register_onexit_function 004210ac     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000b0       __imp___cexit              004210b0     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000b4       __imp___controlfp_s        004210b4     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000b8       __imp__terminate           004210b8     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000bc       __imp___crt_atexit         004210bc     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000c0       \177api-ms-win-crt-runtime-l1-1-0_NULL_THUNK_DATA 004210c0     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000c4       __imp____acrt_iob_func     004210c4     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:000000c8       __imp__fflush              004210c8     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:000000cc       __imp___setmode            004210cc     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:000000cc       __imp__setmode             004210cc     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:000000d0       __imp___fileno             004210d0     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:000000d0       __imp__fileno              004210d0     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:000000d4       __imp____p__commode        004210d4     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:000000d8       __imp____stdio_common_vsprintf 004210d8     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:000000dc       __imp___set_fmode          004210dc     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:000000e0       __imp__fwrite              004210e0     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:000000e4       __imp__fopen               004210e4     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:000000e8       __imp__fread               004210e8     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:000000ec       __imp____stdio_common_vsscanf 004210ec     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:000000f0       __imp__ungetc              004210f0     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:000000f4       __imp____stdio_common_vfprintf 004210f4     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:000000f8       __imp__getc                004210f8     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:000000fc       __imp__fclose              004210fc     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:00000100       __imp__ferror              00421100     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:00000104       \177api-ms-win-crt-stdio-l1-1-0_NULL_THUNK_DATA 00421104     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:00000108       __imp__isupper             00421108     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0002:0000010c       __imp__tolower             0042110c     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0002:00000110       __imp__isdigit             00421110     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0002:00000114       __imp__isspace             00421114     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0002:00000118       \177api-ms-win-crt-string-l1-1-0_NULL_THUNK_DATA 00421118     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0002:0000011c       ___guard_check_icall_fptr  0042111c     MSVCRT:guard_support.obj
+ 0002:00000120       ___castguard_check_failure_os_handled_fptr 00421120     MSVCRT:guard_support.obj
+ 0002:00000124       ___xc_a                    00421124     MSVCRT:initializers.obj
+ 0002:0000012c       ___xc_z                    0042112c     MSVCRT:initializers.obj
+ 0002:00000130       ___xi_a                    00421130     MSVCRT:initializers.obj
+ 0002:0000013c       ___xi_z                    0042113c     MSVCRT:initializers.obj
+ 0002:00000140       ___xp_a                    00421140     MSVCRT:initializers.obj
+ 0002:00000144       ___xp_z                    00421144     MSVCRT:initializers.obj
+ 0002:00000148       ___xt_a                    00421148     MSVCRT:initializers.obj
+ 0002:0000014c       ___xt_z                    0042114c     MSVCRT:initializers.obj
+ 0002:00000438       _jpeg_std_message_table    00421438     jpeg:jerror.obj
+ 0002:000007f0       _jpeg_natural_order        004217f0     jpeg:jutils.obj
+ 0002:00000930       _jpeg_natural_order4       00421930     jpeg:jutils.obj
+ 0002:000009b0       _jpeg_natural_order5       004219b0     jpeg:jutils.obj
+ 0002:00000a58       _jpeg_natural_order3       00421a58     jpeg:jutils.obj
+ 0002:00000ac0       _jpeg_natural_order6       00421ac0     jpeg:jutils.obj
+ 0002:00000b90       _jpeg_natural_order7       00421b90     jpeg:jutils.obj
+ 0002:00000c98       _jpeg_natural_order2       00421c98     jpeg:jutils.obj
+ 0002:00000db8       _jpeg_aritab               00421db8     jpeg:jaricom.obj
+ 0002:00000f80       __real@3ec3ef15            00421f80     jpeg:jfdctflt.obj
+ 0002:00000f84       __real@3f0a8bd4            00421f84     jpeg:jfdctflt.obj
+ 0002:00000f88       __real@3f3504f3            00421f88     jpeg:jfdctflt.obj
+ 0002:00000f8c       __real@3fa73d75            00421f8c     jpeg:jfdctflt.obj
+ 0002:00000f90       __real@3fd1a855de72ab5d    00421f90     jpeg:jcdctmgr.obj
+ 0002:00000f98       __real@3fe1517a7bc720bb    00421f98     jpeg:jcdctmgr.obj
+ 0002:00000fa0       __real@3fe92469c0a7bf3b    00421fa0     jpeg:jcdctmgr.obj
+ 0002:00000fa8       __real@3ff0000000000000    00421fa8     jpeg:jcdctmgr.obj
+ 0002:00000fb0       __real@3ff2d062ef6c11aa    00421fb0     jpeg:jcdctmgr.obj
+ 0002:00000fb8       __real@3ff4e7ae914d6fca    00421fb8     jpeg:jcdctmgr.obj
+ 0002:00000fc0       __real@3ff63150b14861ef    00421fc0     jpeg:jcdctmgr.obj
+ 0002:00000fc8       __real@4020000000000000    00421fc8     jpeg:jcdctmgr.obj
+ 0002:00000fd0       __real@4030000000000000    00421fd0     jpeg:jcdctmgr.obj
+ 0002:00000fd8       __real@44800000            00421fd8     jpeg:jfdctflt.obj
+ 0002:00000fdc       __real@46800100            00421fdc     jpeg:jcdctmgr.obj
+ 0002:00000fe0       __xmm@0000000000000000000000000000007e 00421fe0     cjpeg.obj
+ 0002:00000ff0       __xmm@00000003000000020000000100000000 00421ff0     jpeg:jccolor.obj
+ 0002:00001000       __xmm@00001d2f00001d2f00001d2f00001d2f 00422000     jpeg:jccolor.obj
+ 0002:00001010       __xmm@00004c8b00004c8b00004c8b00004c8b 00422010     jpeg:jccolor.obj
+ 0002:00001020       __xmm@00008000000080000000800000008000 00422020     jpeg:jccolor.obj
+ 0002:00001030       __xmm@00009646000096460000964600009646 00422030     jpeg:jccolor.obj
+ 0002:00001040       __xmm@00807fff00807fff00807fff00807fff 00422040     jpeg:jccolor.obj
+ 0002:00001050       __xmm@40004000400040004000400040004000 00422050     jpeg:jcdctmgr.obj
+ 0002:00001060       __xmm@46800100468001004680010046800100 00422060     jpeg:jcdctmgr.obj
+ 0002:00001070       __xmm@ffff94d1ffff94d1ffff94d1ffff94d1 00422070     jpeg:jccolor.obj
+ 0002:00001080       __xmm@ffffab32ffffab32ffffab32ffffab32 00422080     jpeg:jccolor.obj
+ 0002:00001090       __xmm@ffffd4ceffffd4ceffffd4ceffffd4ce 00422090     jpeg:jccolor.obj
+ 0002:000010a0       __xmm@ffffeb2fffffeb2fffffeb2fffffeb2f 004220a0     jpeg:jccolor.obj
+ 0002:000010b0       __load_config_used         004220b0     MSVCRT:loadcfg.obj
+ 0002:00001200       ___safe_se_handler_table   00422200     <linker-defined>
+ 0002:00001204       ___volatile_metadata       00422204     <linker-defined>
+ 0002:0000155c       ___rtc_iaa                 0042255c     MSVCRT:initsect.obj
+ 0002:00001560       ___rtc_izz                 00422560     MSVCRT:initsect.obj
+ 0002:00001564       ___rtc_taa                 00422564     MSVCRT:initsect.obj
+ 0002:00001568       ___rtc_tzz                 00422568     MSVCRT:initsect.obj
+ 0002:000015ac       __IMPORT_DESCRIPTOR_VCRUNTIME140 004225ac     vcruntime:VCRUNTIME140.dll
+ 0002:000015c0       __IMPORT_DESCRIPTOR_api-ms-win-crt-stdio-l1-1-0 004225c0     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:000015d4       __IMPORT_DESCRIPTOR_api-ms-win-crt-string-l1-1-0 004225d4     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0002:000015e8       __IMPORT_DESCRIPTOR_api-ms-win-crt-runtime-l1-1-0 004225e8     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000015fc       __IMPORT_DESCRIPTOR_api-ms-win-crt-heap-l1-1-0 004225fc     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:00001610       __IMPORT_DESCRIPTOR_api-ms-win-crt-environment-l1-1-0 00422610     ucrt:api-ms-win-crt-environment-l1-1-0.dll
+ 0002:00001624       __IMPORT_DESCRIPTOR_api-ms-win-crt-math-l1-1-0 00422624     ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0002:00001638       __IMPORT_DESCRIPTOR_api-ms-win-crt-locale-l1-1-0 00422638     ucrt:api-ms-win-crt-locale-l1-1-0.dll
+ 0002:0000164c       __IMPORT_DESCRIPTOR_KERNEL32 0042264c     kernel32:KERNEL32.dll
+ 0002:00001660       __NULL_IMPORT_DESCRIPTOR   00422660     vcruntime:VCRUNTIME140.dll
+ 0003:00000000       ___security_cookie         00423000     MSVCRT:gs_cookie.obj
+ 0003:00000040       ___security_cookie_complement 00423040     MSVCRT:gs_cookie.obj
+ 0003:00000044       ___scrt_native_dllmain_reason 00423044     MSVCRT:utility.obj
+ 0003:00000048       ___scrt_default_matherr    00423048     MSVCRT:matherr.obj
+ 0003:00000050       ___isa_enabled             00423050     MSVCRT:cpu_disp.obj
+ 0003:00000054       ___scrt_ucrt_dll_is_in_use 00423054     MSVCRT:ucrt_stubs.obj
+ 0003:00002360       __fltused                  00425360     MSVCRT:fltused.obj
+ 0003:00002684       ___scrt_current_native_startup_state 00425684     MSVCRT:utility.obj
+ 0003:00002688       ___scrt_native_startup_lock 00425688     MSVCRT:utility.obj
+ 0003:000026a8       ?__type_info_root_node@@3U__type_info_node@@A 004256a8     MSVCRT:tncleanup.obj
+ 0003:000026b0       ___scrt_debugger_hook_flag 004256b0     MSVCRT:utility_desktop.obj
+ 0003:000026b4       ___isa_available           004256b4     MSVCRT:cpu_disp.obj
+ 0003:000026b8       ___favor                   004256b8     MSVCRT:cpu_disp.obj
+ 0003:000026c8       ___dyn_tls_dtor_callback   004256c8     <common>
+ 0003:000026cc       ___dyn_tls_init_callback   004256cc     <common>
+ 0003:000026d0       ?_OptionsStorage@?1??__local_stdio_printf_options@@9@9 004256d0     <common>
+ 0003:000026d8       ?_OptionsStorage@?1??__local_stdio_scanf_options@@9@9 004256d8     <common>
+
+ entry point at        0001:0001ebb4
+
+ Static symbols
+
+ 0000:fffd8000       .debug$S                   00400000     ucrt:api-ms-win-crt-environment-l1-1-0.dll
+ 0000:fffd8000       .debug$S                   00400000     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0000:fffd8000       .debug$S                   00400000     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0000:fffd8000       .debug$S                   00400000     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0000:fffd8000       .debug$S                   00400000     ucrt:api-ms-win-crt-locale-l1-1-0.dll
+ 0000:fffd8000       .debug$S                   00400000     ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0000:fffd8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffd8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffd8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffd8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffd8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffd8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffd8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffd8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffd8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffd8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffd8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffd8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffd8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffd8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffd8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffd8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffd8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffd8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffd8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffd8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffd8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffd8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffd8000       .debug$S                   00400000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:fffd8000       .debug$S                   00400000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:fffd8000       .debug$S                   00400000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:fffd8000       .debug$S                   00400000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:fffd8000       .debug$S                   00400000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:fffd8000       .debug$S                   00400000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:fffd8000       .debug$S                   00400000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:fffd8000       .debug$S                   00400000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:fffd8000       .debug$S                   00400000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:fffd8000       .debug$S                   00400000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:fffd8000       .debug$S                   00400000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:fffd8000       .debug$S                   00400000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:fffd8000       .debug$S                   00400000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:fffd8000       .debug$S                   00400000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:fffd8000       .debug$S                   00400000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:fffd8000       .debug$S                   00400000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:fffd8000       .debug$S                   00400000     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0000:fffd8000       .debug$S                   00400000     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0000:fffd8000       .debug$S                   00400000     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0000:fffd8000       .debug$S                   00400000     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0000:fffd8000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:fffd8000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:fffd8000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:fffd8000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:fffd8000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:fffd8000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:fffd8000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:fffd8000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:fffd8000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:fffd8000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:fffd8000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:fffd8000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:fffd8000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:fffd8000       .debug$S                   00400000     vcruntime:VCRUNTIME140.dll
+ 0000:fffd8000       .debug$S                   00400000     vcruntime:VCRUNTIME140.dll
+ 0000:fffd8000       .debug$S                   00400000     vcruntime:VCRUNTIME140.dll
+ 0000:fffd8000       .debug$S                   00400000     vcruntime:VCRUNTIME140.dll
+ 0000:fffd8000       .debug$S                   00400000     vcruntime:VCRUNTIME140.dll
+ 0000:fffd8000       .debug$S                   00400000     vcruntime:VCRUNTIME140.dll
+ 0001:00000130       _select_file_type          00401130 f   cjpeg.obj
+ 0001:00000268       $LN24                      00401268     cjpeg.obj
+ 0001:0000027c       $LN23                      0040127c     cjpeg.obj
+ 0001:000002d0       _usage                     004012d0 f   cjpeg.obj
+ 0001:00000570       _parse_switches            00401570 f   cjpeg.obj
+ 0001:00001870       _read_colormap             00402870 f   rdbmp.obj
+ 0001:00001a70       _get_8bit_row              00402a70 f   rdbmp.obj
+ 0001:00001b10       _get_24bit_row             00402b10 f   rdbmp.obj
+ 0001:00001b70       _get_32bit_row             00402b70 f   rdbmp.obj
+ 0001:00001bd0       _preload_image             00402bd0 f   rdbmp.obj
+ 0001:00001d30       _start_input_bmp           00402d30 f   rdbmp.obj
+ 0001:00002320       _finish_input_bmp          00403320 f   rdbmp.obj
+ 0001:00002320       _finish_input_gif          00403320 f   rdgif.obj
+ 0001:00002320       _finish_input_ppm          00403320 f   rdppm.obj
+ 0001:00002320       _finish_input_tga          00403320 f   rdtarga.obj
+ 0001:00002320       _null_method               00403320 f   jpeg:jccolor.obj
+ 0001:00002320       _start_pass_downsample     00403320 f   jpeg:jcsample.obj
+ 0001:00002330       _SkipDataBlocks            00403330 f   rdgif.obj
+ 0001:000023d0       _GetCode                   004033d0 f   rdgif.obj
+ 0001:00002580       _LZWReadByte               00403580 f   rdgif.obj
+ 0001:00002750       _ReadColorMap              00403750 f   rdgif.obj
+ 0001:00002830       _start_input_gif           00403830 f   rdgif.obj
+ 0001:00002cf0       _get_pixel_rows            00403cf0 f   rdgif.obj
+ 0001:00002d50       _load_interlaced_image     00403d50 f   rdgif.obj
+ 0001:00002e20       _get_interlaced_row        00403e20 f   rdgif.obj
+ 0001:00002ecc       $LN17                      00403ecc     rdgif.obj
+ 0001:00002ef0       _read_pbm_integer          00403ef0 f   rdppm.obj
+ 0001:00002fb0       _get_text_gray_row         00403fb0 f   rdppm.obj
+ 0001:00003030       _get_text_rgb_row          00404030 f   rdppm.obj
+ 0001:00003110       _get_scaled_gray_row       00404110 f   rdppm.obj
+ 0001:000031b0       _get_scaled_rgb_row        004041b0 f   rdppm.obj
+ 0001:000032a0       _get_raw_row               004042a0 f   rdppm.obj
+ 0001:000032e0       _get_word_gray_row         004042e0 f   rdppm.obj
+ 0001:00003390       _get_word_rgb_row          00404390 f   rdppm.obj
+ 0001:000034a0       _start_input_ppm           004044a0 f   rdppm.obj
+ 0001:00003770       $LN44                      00404770     rdppm.obj
+ 0001:00003784       $LN45                      00404784     rdppm.obj
+ 0001:000037a0       _read_text_integer         004047a0 f   rdswitch.obj
+ 0001:00003870       _read_scan_integer         00404870 f   rdswitch.obj
+ 0001:00003c40       _read_non_rle_pixel        00404c40 f   rdtarga.obj
+ 0001:00003c90       _read_rle_pixel            00404c90 f   rdtarga.obj
+ 0001:00003d40       _get_8bit_gray_row         00404d40 f   rdtarga.obj
+ 0001:00003d80       _get_8bit_row              00404d80 f   rdtarga.obj
+ 0001:00003e10       _get_16bit_row             00404e10 f   rdtarga.obj
+ 0001:00003e80       _get_24bit_row             00404e80 f   rdtarga.obj
+ 0001:00003ed0       _get_memory_row            00404ed0 f   rdtarga.obj
+ 0001:00003f10       _preload_image             00404f10 f   rdtarga.obj
+ 0001:00003fb0       _start_input_tga           00404fb0 f   rdtarga.obj
+ 0001:00004510       _std_huff_tables           00405510 f   jpeg:jcparam.obj
+ 0001:00004c00       $LN182                     00405c00     jpeg:jcparam.obj
+ 0001:00005118       $LN24                      00406118     jpeg:jcparam.obj
+ 0001:00005140       _fill_scans                00406140 f   jpeg:jcparam.obj
+ 0001:000056e0       _error_exit                004066e0 f   jpeg:jerror.obj
+ 0001:00005700       _output_message            00406700 f   jpeg:jerror.obj
+ 0001:00005760       _emit_message              00406760 f   jpeg:jerror.obj
+ 0001:000057a0       _format_message            004067a0 f   jpeg:jerror.obj
+ 0001:00005850       _reset_error_mgr           00406850 f   jpeg:jerror.obj
+ 0001:00005870       _init_destination          00406870 f   jpeg:jdatadst.obj
+ 0001:000058a0       _empty_output_buffer       004068a0 f   jpeg:jdatadst.obj
+ 0001:000058f0       _term_destination          004068f0 f   jpeg:jdatadst.obj
+ 0001:00005d00       _alloc_small               00406d00 f   jpeg:jmemmgr.obj
+ 0001:00005e40       _alloc_large               00406e40 f   jpeg:jmemmgr.obj
+ 0001:00005f10       _alloc_sarray              00406f10 f   jpeg:jmemmgr.obj
+ 0001:00005fc0       _alloc_barray              00406fc0 f   jpeg:jmemmgr.obj
+ 0001:00006070       _request_virt_sarray       00407070 f   jpeg:jmemmgr.obj
+ 0001:000060e0       _request_virt_barray       004070e0 f   jpeg:jmemmgr.obj
+ 0001:00006150       _realize_virt_arrays       00407150 f   jpeg:jmemmgr.obj
+ 0001:000062e0       _do_sarray_io              004072e0 f   jpeg:jmemmgr.obj
+ 0001:00006370       _do_barray_io              00407370 f   jpeg:jmemmgr.obj
+ 0001:00006400       _access_virt_sarray        00407400 f   jpeg:jmemmgr.obj
+ 0001:00006550       _access_virt_barray        00407550 f   jpeg:jmemmgr.obj
+ 0001:000066a0       _free_pool                 004076a0 f   jpeg:jmemmgr.obj
+ 0001:000067b0       _self_destruct             004077b0 f   jpeg:jmemmgr.obj
+ 0001:000067f0       _emit_dqt                  004077f0 f   jpeg:jcmarker.obj
+ 0001:00006a30       _emit_dht                  00407a30 f   jpeg:jcmarker.obj
+ 0001:00006c70       _emit_dac                  00407c70 f   jpeg:jcmarker.obj
+ 0001:00006ef0       _emit_dri                  00407ef0 f   jpeg:jcmarker.obj
+ 0001:00007020       _emit_lse_ict              00408020 f   jpeg:jcmarker.obj
+ 0001:00007540       _emit_sof                  00408540 f   jpeg:jcmarker.obj
+ 0001:00007830       _emit_sos                  00408830 f   jpeg:jcmarker.obj
+ 0001:00007aa0       _emit_pseudo_sos           00408aa0 f   jpeg:jcmarker.obj
+ 0001:00007c40       _emit_jfif_app0            00408c40 f   jpeg:jcmarker.obj
+ 0001:00007fd0       _emit_adobe_app14          00408fd0 f   jpeg:jcmarker.obj
+ 0001:000082f0       _write_marker_header       004092f0 f   jpeg:jcmarker.obj
+ 0001:000083f0       _write_marker_byte         004093f0 f   jpeg:jcmarker.obj
+ 0001:00008430       _write_file_header         00409430 f   jpeg:jcmarker.obj
+ 0001:000084d0       _write_frame_header        004094d0 f   jpeg:jcmarker.obj
+ 0001:000085f0       _write_scan_header         004095f0 f   jpeg:jcmarker.obj
+ 0001:000086a0       _write_file_trailer        004096a0 f   jpeg:jcmarker.obj
+ 0001:00008710       _write_tables_only         00409710 f   jpeg:jcmarker.obj
+ 0001:00009150       _finish_pass               0040a150 f   jpeg:jcarith.obj
+ 0001:000094d0       _arith_encode              0040a4d0 f   jpeg:jcarith.obj
+ 0001:00009780       _emit_restart              0040a780 f   jpeg:jcarith.obj
+ 0001:000098d0       _encode_mcu_DC_first       0040a8d0 f   jpeg:jcarith.obj
+ 0001:00009ad0       _encode_mcu_AC_first       0040aad0 f   jpeg:jcarith.obj
+ 0001:00009d10       _encode_mcu_DC_refine      0040ad10 f   jpeg:jcarith.obj
+ 0001:00009da0       _encode_mcu_AC_refine      0040ada0 f   jpeg:jcarith.obj
+ 0001:00009fa0       _encode_mcu                0040afa0 f   jpeg:jcarith.obj
+ 0001:0000a3a0       _start_pass                0040b3a0 f   jpeg:jcarith.obj
+ 0001:0000a570       _start_pass_prep           0040b570 f   jpeg:jcprepct.obj
+ 0001:0000a5c0       _pre_process_data          0040b5c0 f   jpeg:jcprepct.obj
+ 0001:0000a810       _pre_process_context       0040b810 f   jpeg:jcprepct.obj
+ 0001:0000abf0       _sep_downsample            0040bbf0 f   jpeg:jcsample.obj
+ 0001:0000ac70       _int_downsample            0040bc70 f   jpeg:jcsample.obj
+ 0001:0000aea0       _fullsize_downsample       0040bea0 f   jpeg:jcsample.obj
+ 0001:0000af30       _h2v1_downsample           0040bf30 f   jpeg:jcsample.obj
+ 0001:0000b010       _h2v2_downsample           0040c010 f   jpeg:jcsample.obj
+ 0001:0000b110       _h2v2_smooth_downsample    0040c110 f   jpeg:jcsample.obj
+ 0001:0000b410       _fullsize_smooth_downsample 0040c410 f   jpeg:jcsample.obj
+ 0001:0000b780       _start_pass_main           0040c780 f   jpeg:jcmainct.obj
+ 0001:0000b7d0       _process_data_simple_main  0040c7d0 f   jpeg:jcmainct.obj
+ 0001:0000b880       _initial_setup             0040c880 f   jpeg:jcmaster.obj
+ 0001:0000bc70       $LN71                      0040cc70     jpeg:jcmaster.obj
+ 0001:0000bc90       _validate_script           0040cc90 f   jpeg:jcmaster.obj
+ 0001:0000c0d0       _select_scan_parameters    0040d0d0 f   jpeg:jcmaster.obj
+ 0001:0000c1e0       _per_scan_setup            0040d1e0 f   jpeg:jcmaster.obj
+ 0001:0000c3c0       _prepare_for_pass          0040d3c0 f   jpeg:jcmaster.obj
+ 0001:0000c570       _pass_startup              0040d570 f   jpeg:jcmaster.obj
+ 0001:0000c5a0       _finish_pass_master        0040d5a0 f   jpeg:jcmaster.obj
+ 0001:0000c780       _start_iMCU_row            0040d780 f   jpeg:jccoefct.obj
+ 0001:0000c7f0       _start_pass_coef           0040d7f0 f   jpeg:jccoefct.obj
+ 0001:0000c8a0       _compress_data             0040d8a0 f   jpeg:jccoefct.obj
+ 0001:0000caf0       _compress_first_pass       0040daf0 f   jpeg:jccoefct.obj
+ 0001:0000cd10       _compress_output           0040dd10 f   jpeg:jccoefct.obj
+ 0001:0000cf00       _rgb_ycc_start             0040df00 f   jpeg:jccolor.obj
+ 0001:0000d0d0       _rgb_ycc_convert           0040e0d0 f   jpeg:jccolor.obj
+ 0001:0000d200       _rgb_gray_convert          0040e200 f   jpeg:jccolor.obj
+ 0001:0000d2b0       _cmyk_ycck_convert         0040e2b0 f   jpeg:jccolor.obj
+ 0001:0000d410       _rgb_rgb1_convert          0040e410 f   jpeg:jccolor.obj
+ 0001:0000d4d0       _grayscale_convert         0040e4d0 f   jpeg:jccolor.obj
+ 0001:0000d540       _rgb_convert               0040e540 f   jpeg:jccolor.obj
+ 0001:0000d5d0       _null_convert              0040e5d0 f   jpeg:jccolor.obj
+ 0001:0000d908       $LN66                      0040e908     jpeg:jccolor.obj
+ 0001:0000d924       $LN67                      0040e924     jpeg:jccolor.obj
+ 0001:0000d940       $LN69                      0040e940     jpeg:jccolor.obj
+ 0001:0000d94c       $LN68                      0040e94c     jpeg:jccolor.obj
+ 0001:0000d960       _jpeg_make_c_derived_tbl   0040e960 f   jpeg:jchuff.obj
+ 0001:0000db90       _emit_bits_s               0040eb90 f   jpeg:jchuff.obj
+ 0001:0000dc70       _emit_bits_e               0040ec70 f   jpeg:jchuff.obj
+ 0001:0000dda0       _emit_eobrun               0040eda0 f   jpeg:jchuff.obj
+ 0001:0000de80       _emit_restart_e            0040ee80 f   jpeg:jchuff.obj
+ 0001:0000dfd0       _encode_mcu_DC_first       0040efd0 f   jpeg:jchuff.obj
+ 0001:0000e140       _encode_mcu_AC_first       0040f140 f   jpeg:jchuff.obj
+ 0001:0000e340       _encode_mcu_DC_refine      0040f340 f   jpeg:jchuff.obj
+ 0001:0000e400       _encode_mcu_AC_refine      0040f400 f   jpeg:jchuff.obj
+ 0001:0000e6f0       _encode_one_block          0040f6f0 f   jpeg:jchuff.obj
+ 0001:0000e8d0       _encode_mcu_huff           0040f8d0 f   jpeg:jchuff.obj
+ 0001:0000ead0       _finish_pass_huff          0040fad0 f   jpeg:jchuff.obj
+ 0001:0000ebd0       _encode_mcu_gather         0040fbd0 f   jpeg:jchuff.obj
+ 0001:0000edb0       _jpeg_gen_optimal_table    0040fdb0 f   jpeg:jchuff.obj
+ 0001:0000f0c0       _finish_pass_gather        004100c0 f   jpeg:jchuff.obj
+ 0001:0000f1f0       _start_pass_huff           004101f0 f   jpeg:jchuff.obj
+ 0001:0000f450       _forward_DCT               00410450 f   jpeg:jcdctmgr.obj
+ 0001:0000f560       _forward_DCT_float         00410560 f   jpeg:jcdctmgr.obj
+ 0001:0000f780       _start_pass_fdctmgr        00410780 f   jpeg:jcdctmgr.obj
+ 0001:0001e96d       ?pre_c_initialization@@YAHXZ 0041f96d f   MSVCRT:exe_main.obj
+ 0001:0001ea18       ?post_pgo_initialization@@YAHXZ 0041fa18 f   MSVCRT:exe_main.obj
+ 0001:0001ea20       ?pre_cpp_initialization@@YAXXZ 0041fa20 f   MSVCRT:exe_main.obj
+ 0001:0001ea32       ?__scrt_common_main_seh@@YAHXZ 0041fa32 f   MSVCRT:exe_main.obj
+ 0001:0001edbb       ?find_pe_section@@YAPAU_IMAGE_SECTION_HEADER@@QAEI@Z 0041fdbb f   MSVCRT:utility.obj
+ 0001:0001f00c       ___get_entropy             0042000c f   MSVCRT:gs_support.obj
+ 0001:0001f340       $$000000                   00420340     MSVCRT:sehprolg4.obj
+ 0002:00000128       ?pre_cpp_initializer@@3P6AXXZA 00421128     MSVCRT:exe_main.obj
+ 0002:00000134       ?pre_c_initializer@@3P6AHXZA 00421134     MSVCRT:exe_main.obj
+ 0002:00000138       ?post_pgo_initializer@@3P6AHXZA 00421138     MSVCRT:exe_main.obj
+ 0002:00000150       _GS_ExceptionPointers      00421150     MSVCRT:gs_report.obj
+ 0002:00000158       _cdjpeg_message_table      00421158     cjpeg.obj
+ 0002:00000214       _c5to8bits                 00421214     rdtarga.obj
+ 0002:00000238       _std_luminance_quant_tbl   00421238     jpeg:jcparam.obj
+ 0002:00000338       _std_chrominance_quant_tbl 00421338     jpeg:jcparam.obj
+ 0002:00000638       ?val_ac_chrominance@?1??jpeg_std_huff_table@@9@9 00421638     jpeg:jcomapi.obj
+ 0002:000006dc       ?bits_ac_chrominance@?1??jpeg_std_huff_table@@9@9 004216dc     jpeg:jcomapi.obj
+ 0002:000006f0       ?val_dc_luminance@?1??jpeg_std_huff_table@@9@9 004216f0     jpeg:jcomapi.obj
+ 0002:000006fc       ?val_dc_chrominance@?1??jpeg_std_huff_table@@9@9 004216fc     jpeg:jcomapi.obj
+ 0002:00000708       ?bits_dc_luminance@?1??jpeg_std_huff_table@@9@9 00421708     jpeg:jcomapi.obj
+ 0002:00000720       ?val_ac_luminance@?1??jpeg_std_huff_table@@9@9 00421720     jpeg:jcomapi.obj
+ 0002:000007c4       ?bits_ac_luminance@?1??jpeg_std_huff_table@@9@9 004217c4     jpeg:jcomapi.obj
+ 0002:000007d8       ?bits_dc_chrominance@?1??jpeg_std_huff_table@@9@9 004217d8     jpeg:jcomapi.obj
+ 0002:00000ce8       _first_pool_slop           00421ce8     jpeg:jmemmgr.obj
+ 0002:00000cf0       _extra_pool_slop           00421cf0     jpeg:jmemmgr.obj
+ 0002:00000cf8       ?aanscalefactor@?N@??start_pass_fdctmgr@@9@9 00421cf8     jpeg:jcdctmgr.obj
+ 0002:00000d38       ?aanscales@?9??start_pass_fdctmgr@@9@9 00421d38     jpeg:jcdctmgr.obj
+ 0002:00001570       __sehtable$?__scrt_common_main_seh@@YAHXZ 00422570     MSVCRT:exe_main.obj
+ 0002:00001590       __sehtable$___scrt_is_nonwritable_in_current_image 00422590     MSVCRT:utility.obj
+ 0002:000017e8       .idata$6                   004227e8     vcruntime:VCRUNTIME140.dll
+ 0002:00001ac0       .idata$6                   00422ac0     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:00001ae0       .idata$6                   00422ae0     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0002:00001b02       .idata$6                   00422b02     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00001b24       .idata$6                   00422b24     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:00001b44       .idata$6                   00422b44     ucrt:api-ms-win-crt-environment-l1-1-0.dll
+ 0002:00001b6a       .idata$6                   00422b6a     ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0002:00001b8a       .idata$6                   00422b8a     ucrt:api-ms-win-crt-locale-l1-1-0.dll
+ 0002:00001cc8       .idata$6                   00422cc8     kernel32:KERNEL32.dll
+ 0003:00000058       $SG4294967131              00423058     cjpeg.obj
+ 0003:00000078       $SG4294967130              00423078     cjpeg.obj
+ 0003:000000ac       $SG4294967129              004230ac     cjpeg.obj
+ 0003:000000d0       $SG4294967128              004230d0     cjpeg.obj
+ 0003:000000fc       $SG4294967127              004230fc     cjpeg.obj
+ 0003:00000120       $SG4294967126              00423120     cjpeg.obj
+ 0003:0000014c       $SG4294967125              0042314c     cjpeg.obj
+ 0003:00000174       $SG4294967124              00423174     cjpeg.obj
+ 0003:0000019c       $SG4294967123              0042319c     cjpeg.obj
+ 0003:000001b4       $SG4294967122              004231b4     cjpeg.obj
+ 0003:000001d8       $SG4294967121              004231d8     cjpeg.obj
+ 0003:000001f4       $SG4294967120              004231f4     cjpeg.obj
+ 0003:0000021c       $SG4294967119              0042321c     cjpeg.obj
+ 0003:00000234       $SG4294967118              00423234     cjpeg.obj
+ 0003:0000024c       $SG4294967117              0042324c     cjpeg.obj
+ 0003:00000270       $SG4294967116              00423270     cjpeg.obj
+ 0003:0000028c       $SG4294967115              0042328c     cjpeg.obj
+ 0003:0000029c       $SG4294967114              0042329c     cjpeg.obj
+ 0003:000002c4       $SG4294967113              004232c4     cjpeg.obj
+ 0003:000002d8       $SG4294967112              004232d8     cjpeg.obj
+ 0003:00000308       $SG4294967111              00423308     cjpeg.obj
+ 0003:00000334       $SG4294967110              00423334     cjpeg.obj
+ 0003:00000358       $SG4294967109              00423358     cjpeg.obj
+ 0003:00000374       $SG4294967108              00423374     cjpeg.obj
+ 0003:0000039c       $SG4294967107              0042339c     cjpeg.obj
+ 0003:000003b8       $SG4294967106              004233b8     cjpeg.obj
+ 0003:000003cc       $SG4294967105              004233cc     cjpeg.obj
+ 0003:000003f0       $SG4294967104              004233f0     cjpeg.obj
+ 0003:0000040c       $SG4294967103              0042340c     cjpeg.obj
+ 0003:00000420       $SG4294967102              00423420     cjpeg.obj
+ 0003:00000448       $SG4294967101              00423448     cjpeg.obj
+ 0003:00000458       $SG4294967100              00423458     cjpeg.obj
+ 0003:00000470       $SG4294967099              00423470     cjpeg.obj
+ 0003:00000480       $SG4294967098              00423480     cjpeg.obj
+ 0003:00000498       $SG4294967097              00423498     cjpeg.obj
+ 0003:000004bc       $SG4294967096              004234bc     cjpeg.obj
+ 0003:000004e0       $SG4294967095              004234e0     cjpeg.obj
+ 0003:00000508       $SG4294967094              00423508     cjpeg.obj
+ 0003:00000520       $SG4294967093              00423520     cjpeg.obj
+ 0003:0000053c       $SG4294967092              0042353c     cjpeg.obj
+ 0003:0000055c       $SG4294967091              0042355c     cjpeg.obj
+ 0003:00000590       $SG4294967090              00423590     cjpeg.obj
+ 0003:000005c8       $SG4294967089              004235c8     cjpeg.obj
+ 0003:000005d8       $SG4294967088              004235d8     cjpeg.obj
+ 0003:00000614       $SG4294967087              00423614     cjpeg.obj
+ 0003:00000634       $SG4294965664              00423634     jpeg:jerror.obj
+ 0003:0000064c       $SG4294965663              0042364c     jpeg:jerror.obj
+ 0003:0000066c       $SG4294965662              0042366c     jpeg:jerror.obj
+ 0003:00000694       $SG4294965661              00423694     jpeg:jerror.obj
+ 0003:000006b0       $SG4294965660              004236b0     jpeg:jerror.obj
+ 0003:000006d0       $SG4294965659              004236d0     jpeg:jerror.obj
+ 0003:000006e8       $SG4294965658              004236e8     jpeg:jerror.obj
+ 0003:00000708       $SG4294965657              00423708     jpeg:jerror.obj
+ 0003:00000738       $SG4294965656              00423738     jpeg:jerror.obj
+ 0003:00000778       $SG4294965655              00423778     jpeg:jerror.obj
+ 0003:00000798       $SG4294965654              00423798     jpeg:jerror.obj
+ 0003:000007b0       $SG4294965653              004237b0     jpeg:jerror.obj
+ 0003:000007c8       $SG4294965652              004237c8     jpeg:jerror.obj
+ 0003:000007dc       $SG4294965651              004237dc     jpeg:jerror.obj
+ 0003:0000081c       $SG4294965650              0042381c     jpeg:jerror.obj
+ 0003:0000084c       $SG4294965649              0042384c     jpeg:jerror.obj
+ 0003:00000868       $SG4294965648              00423868     jpeg:jerror.obj
+ 0003:0000088c       $SG4294965647              0042388c     jpeg:jerror.obj
+ 0003:000008c4       $SG4294965646              004238c4     jpeg:jerror.obj
+ 0003:000008fc       $SG4294965645              004238fc     jpeg:jerror.obj
+ 0003:00000914       $SG4294965644              00423914     jpeg:jerror.obj
+ 0003:00000934       $SG4294965643              00423934     jpeg:jerror.obj
+ 0003:00000960       $SG4294965642              00423960     jpeg:jerror.obj
+ 0003:000009b0       $SG4294965641              004239b0     jpeg:jerror.obj
+ 0003:000009cc       $SG4294965640              004239cc     jpeg:jerror.obj
+ 0003:000009f8       $SG4294965639              004239f8     jpeg:jerror.obj
+ 0003:00000a14       $SG4294965638              00423a14     jpeg:jerror.obj
+ 0003:00000a3c       $SG4294965637              00423a3c     jpeg:jerror.obj
+ 0003:00000a64       $SG4294965636              00423a64     jpeg:jerror.obj
+ 0003:00000a8c       $SG4294965635              00423a8c     jpeg:jerror.obj
+ 0003:00000aa0       $SG4294965634              00423aa0     jpeg:jerror.obj
+ 0003:00000ab8       $SG4294965633              00423ab8     jpeg:jerror.obj
+ 0003:00000acc       $SG4294965632              00423acc     jpeg:jerror.obj
+ 0003:00000ae0       $SG4294965631              00423ae0     jpeg:jerror.obj
+ 0003:00000b08       $SG4294965630              00423b08     jpeg:jerror.obj
+ 0003:00000b20       $SG4294965629              00423b20     jpeg:jerror.obj
+ 0003:00000b34       $SG4294965628              00423b34     jpeg:jerror.obj
+ 0003:00000b58       $SG4294965627              00423b58     jpeg:jerror.obj
+ 0003:00000b70       $SG4294965626              00423b70     jpeg:jerror.obj
+ 0003:00000ba0       $SG4294965625              00423ba0     jpeg:jerror.obj
+ 0003:00000bc8       $SG4294965624              00423bc8     jpeg:jerror.obj
+ 0003:00000bf0       $SG4294965623              00423bf0     jpeg:jerror.obj
+ 0003:00000c14       $SG4294965622              00423c14     jpeg:jerror.obj
+ 0003:00000c44       $SG4294965621              00423c44     jpeg:jerror.obj
+ 0003:00000c58       $SG4294965620              00423c58     jpeg:jerror.obj
+ 0003:00000c74       $SG4294965619              00423c74     jpeg:jerror.obj
+ 0003:00000cb4       $SG4294965618              00423cb4     jpeg:jerror.obj
+ 0003:00000cdc       $SG4294965617              00423cdc     jpeg:jerror.obj
+ 0003:00000d04       $SG4294965616              00423d04     jpeg:jerror.obj
+ 0003:00000d18       $SG4294965615              00423d18     jpeg:jerror.obj
+ 0003:00000d48       $SG4294965614              00423d48     jpeg:jerror.obj
+ 0003:00000d70       $SG4294965613              00423d70     jpeg:jerror.obj
+ 0003:00000d8c       $SG4294965612              00423d8c     jpeg:jerror.obj
+ 0003:00000db4       $SG4294965611              00423db4     jpeg:jerror.obj
+ 0003:00000dd8       $SG4294965610              00423dd8     jpeg:jerror.obj
+ 0003:00000e04       $SG4294965609              00423e04     jpeg:jerror.obj
+ 0003:00000e30       $SG4294965608              00423e30     jpeg:jerror.obj
+ 0003:00000e50       $SG4294965607              00423e50     jpeg:jerror.obj
+ 0003:00000e80       $SG4294965606              00423e80     jpeg:jerror.obj
+ 0003:00000ea8       $SG4294965605              00423ea8     jpeg:jerror.obj
+ 0003:00000ed0       $SG4294965604              00423ed0     jpeg:jerror.obj
+ 0003:00000efc       $SG4294965603              00423efc     jpeg:jerror.obj
+ 0003:00000f2c       $SG4294965602              00423f2c     jpeg:jerror.obj
+ 0003:00000f5c       $SG4294965601              00423f5c     jpeg:jerror.obj
+ 0003:00000f88       $SG4294965600              00423f88     jpeg:jerror.obj
+ 0003:00000fb8       $SG4294965599              00423fb8     jpeg:jerror.obj
+ 0003:00000fdc       $SG4294965598              00423fdc     jpeg:jerror.obj
+ 0003:00000ffc       $SG4294965597              00423ffc     jpeg:jerror.obj
+ 0003:0000101c       $SG4294965596              0042401c     jpeg:jerror.obj
+ 0003:00001054       $SG4294965595              00424054     jpeg:jerror.obj
+ 0003:00001080       $SG4294965594              00424080     jpeg:jerror.obj
+ 0003:000010a0       $SG4294965593              004240a0     jpeg:jerror.obj
+ 0003:000010c4       $SG4294965592              004240c4     jpeg:jerror.obj
+ 0003:000010ec       $SG4294965591              004240ec     jpeg:jerror.obj
+ 0003:00001104       $SG4294965590              00424104     jpeg:jerror.obj
+ 0003:00001118       $SG4294965589              00424118     jpeg:jerror.obj
+ 0003:00001150       $SG4294965588              00424150     jpeg:jerror.obj
+ 0003:00001160       $SG4294965587              00424160     jpeg:jerror.obj
+ 0003:000011a0       $SG4294965586              004241a0     jpeg:jerror.obj
+ 0003:000011e4       $SG4294965585              004241e4     jpeg:jerror.obj
+ 0003:00001210       $SG4294965584              00424210     jpeg:jerror.obj
+ 0003:0000123c       $SG4294965583              0042423c     jpeg:jerror.obj
+ 0003:00001264       $SG4294965582              00424264     jpeg:jerror.obj
+ 0003:00001280       $SG4294965581              00424280     jpeg:jerror.obj
+ 0003:000012ac       $SG4294965580              004242ac     jpeg:jerror.obj
+ 0003:000012c8       $SG4294965579              004242c8     jpeg:jerror.obj
+ 0003:000012dc       $SG4294965578              004242dc     jpeg:jerror.obj
+ 0003:000012f4       $SG4294965577              004242f4     jpeg:jerror.obj
+ 0003:00001304       $SG4294965576              00424304     jpeg:jerror.obj
+ 0003:0000132c       $SG4294965575              0042432c     jpeg:jerror.obj
+ 0003:00001364       $SG4294965574              00424364     jpeg:jerror.obj
+ 0003:000013a0       $SG4294965573              004243a0     jpeg:jerror.obj
+ 0003:000013d0       $SG4294965572              004243d0     jpeg:jerror.obj
+ 0003:000013f4       $SG4294965571              004243f4     jpeg:jerror.obj
+ 0003:0000141c       $SG4294965570              0042441c     jpeg:jerror.obj
+ 0003:00001438       $SG4294965569              00424438     jpeg:jerror.obj
+ 0003:00001460       $SG4294965568              00424460     jpeg:jerror.obj
+ 0003:00001484       $SG4294965567              00424484     jpeg:jerror.obj
+ 0003:0000149c       $SG4294965566              0042449c     jpeg:jerror.obj
+ 0003:000014c0       $SG4294965565              004244c0     jpeg:jerror.obj
+ 0003:000014e8       $SG4294965564              004244e8     jpeg:jerror.obj
+ 0003:000014f0       $SG4294965563              004244f0     jpeg:jerror.obj
+ 0003:0000152c       $SG4294965562              0042452c     jpeg:jerror.obj
+ 0003:00001568       $SG4294965561              00424568     jpeg:jerror.obj
+ 0003:00001588       $SG4294965560              00424588     jpeg:jerror.obj
+ 0003:00001598       $SG4294965559              00424598     jpeg:jerror.obj
+ 0003:000015b8       $SG4294965558              004245b8     jpeg:jerror.obj
+ 0003:000015d8       $SG4294965557              004245d8     jpeg:jerror.obj
+ 0003:000015f8       $SG4294965556              004245f8     jpeg:jerror.obj
+ 0003:00001614       $SG4294965555              00424614     jpeg:jerror.obj
+ 0003:00001630       $SG4294965554              00424630     jpeg:jerror.obj
+ 0003:00001674       $SG4294965553              00424674     jpeg:jerror.obj
+ 0003:000016b0       $SG4294965552              004246b0     jpeg:jerror.obj
+ 0003:000016e8       $SG4294965551              004246e8     jpeg:jerror.obj
+ 0003:0000171c       $SG4294965550              0042471c     jpeg:jerror.obj
+ 0003:00001730       $SG4294965549              00424730     jpeg:jerror.obj
+ 0003:00001748       $SG4294965548              00424748     jpeg:jerror.obj
+ 0003:00001770       $SG4294965547              00424770     jpeg:jerror.obj
+ 0003:00001798       $SG4294965546              00424798     jpeg:jerror.obj
+ 0003:000017dc       $SG4294965545              004247dc     jpeg:jerror.obj
+ 0003:00001818       $SG4294965544              00424818     jpeg:jerror.obj
+ 0003:0000184c       $SG4294965543              0042484c     jpeg:jerror.obj
+ 0003:00001870       $SG4294965542              00424870     jpeg:jerror.obj
+ 0003:000018a0       $SG4294965541              004248a0     jpeg:jerror.obj
+ 0003:000018bc       $SG4294965540              004248bc     jpeg:jerror.obj
+ 0003:000018f4       $SG4294965539              004248f4     jpeg:jerror.obj
+ 0003:00001920       $SG4294965538              00424920     jpeg:jerror.obj
+ 0003:0000194c       $SG4294967010              0042494c     cjpeg.obj
+ 0003:00001960       $SG4294967011              00424960     cjpeg.obj
+ 0003:00001964       $SG4294967012              00424964     cjpeg.obj
+ 0003:00001978       $SG4294967013              00424978     cjpeg.obj
+ 0003:0000197c       $SG4294967014              0042497c     cjpeg.obj
+ 0003:000019ac       $SG4294967015              004249ac     cjpeg.obj
+ 0003:000019dc       $SG4294967016              004249dc     cjpeg.obj
+ 0003:000019e4       $SG4294967017              004249e4     cjpeg.obj
+ 0003:000019ec       $SG4294967018              004249ec     cjpeg.obj
+ 0003:000019f0       $SG4294967019              004249f0     cjpeg.obj
+ 0003:000019f8       $SG4294967020              004249f8     cjpeg.obj
+ 0003:00001a00       $SG4294967021              00424a00     cjpeg.obj
+ 0003:00001a08       $SG4294967022              00424a08     cjpeg.obj
+ 0003:00001a10       $SG4294967023              00424a10     cjpeg.obj
+ 0003:00001a18       $SG4294967024              00424a18     cjpeg.obj
+ 0003:00001a20       $SG4294967025              00424a20     cjpeg.obj
+ 0003:00001a28       $SG4294967026              00424a28     cjpeg.obj
+ 0003:00001a30       $SG4294967027              00424a30     cjpeg.obj
+ 0003:00001a38       $SG4294967028              00424a38     cjpeg.obj
+ 0003:00001a40       $SG4294967029              00424a40     cjpeg.obj
+ 0003:00001a4c       $SG4294967030              00424a4c     cjpeg.obj
+ 0003:00001a54       $SG4294967031              00424a54     cjpeg.obj
+ 0003:00001a60       $SG4294967032              00424a60     cjpeg.obj
+ 0003:00001a6c       $SG4294967033              00424a6c     cjpeg.obj
+ 0003:00001a78       $SG4294967034              00424a78     cjpeg.obj
+ 0003:00001a80       $SG4294967035              00424a80     cjpeg.obj
+ 0003:00001a8c       $SG4294967036              00424a8c     cjpeg.obj
+ 0003:00001a94       $SG4294967037              00424a94     cjpeg.obj
+ 0003:00001a9c       $SG4294967038              00424a9c     cjpeg.obj
+ 0003:00001aa0       $SG4294967039              00424aa0     cjpeg.obj
+ 0003:00001aac       $SG4294967040              00424aac     cjpeg.obj
+ 0003:00001ab8       $SG4294967041              00424ab8     cjpeg.obj
+ 0003:00001ae8       $SG4294967042              00424ae8     cjpeg.obj
+ 0003:00001af8       $SG4294967043              00424af8     cjpeg.obj
+ 0003:00001b30       $SG4294967044              00424b30     cjpeg.obj
+ 0003:00001b38       $SG4294967045              00424b38     cjpeg.obj
+ 0003:00001b40       $SG4294967046              00424b40     cjpeg.obj
+ 0003:00001b48       $SG4294967047              00424b48     cjpeg.obj
+ 0003:00001b50       $SG4294967048              00424b50     cjpeg.obj
+ 0003:00001b54       $SG4294967049              00424b54     cjpeg.obj
+ 0003:00001b58       $SG4294967050              00424b58     cjpeg.obj
+ 0003:00001b5c       $SG4294967051              00424b5c     cjpeg.obj
+ 0003:00001b64       $SG4294967052              00424b64     cjpeg.obj
+ 0003:00001b70       $SG4294967053              00424b70     cjpeg.obj
+ 0003:00001b7c       $SG4294967054              00424b7c     cjpeg.obj
+ 0003:00001bb8       $SG4294967055              00424bb8     cjpeg.obj
+ 0003:00001bf0       $SG4294967056              00424bf0     cjpeg.obj
+ 0003:00001c28       $SG4294967057              00424c28     cjpeg.obj
+ 0003:00001c60       $SG4294967058              00424c60     cjpeg.obj
+ 0003:00001c98       $SG4294967059              00424c98     cjpeg.obj
+ 0003:00001cb0       $SG4294967060              00424cb0     cjpeg.obj
+ 0003:00001cdc       $SG4294967061              00424cdc     cjpeg.obj
+ 0003:00001d0c       $SG4294967062              00424d0c     cjpeg.obj
+ 0003:00001d40       $SG4294967063              00424d40     cjpeg.obj
+ 0003:00001d80       $SG4294967064              00424d80     cjpeg.obj
+ 0003:00001dc4       $SG4294967065              00424dc4     cjpeg.obj
+ 0003:00001dfc       $SG4294967066              00424dfc     cjpeg.obj
+ 0003:00001e30       $SG4294967068              00424e30     cjpeg.obj
+ 0003:00001e6c       $SG4294967070              00424e6c     cjpeg.obj
+ 0003:00001e98       $SG4294967071              00424e98     cjpeg.obj
+ 0003:00001ea4       $SG4294967072              00424ea4     cjpeg.obj
+ 0003:00001ed8       $SG4294967073              00424ed8     cjpeg.obj
+ 0003:00001f20       $SG4294967074              00424f20     cjpeg.obj
+ 0003:00001f58       $SG4294967075              00424f58     cjpeg.obj
+ 0003:00001f80       $SG4294967076              00424f80     cjpeg.obj
+ 0003:00001fa0       $SG4294967077              00424fa0     cjpeg.obj
+ 0003:00001fe4       $SG4294967078              00424fe4     cjpeg.obj
+ 0003:0000201c       $SG4294967079              0042501c     cjpeg.obj
+ 0003:00002050       $SG4294967080              00425050     cjpeg.obj
+ 0003:000020a0       $SG4294967081              004250a0     cjpeg.obj
+ 0003:000020c8       $SG4294967082              004250c8     cjpeg.obj
+ 0003:000020f8       $SG4294967083              004250f8     cjpeg.obj
+ 0003:00002144       $SG4294967084              00425144     cjpeg.obj
+ 0003:0000216c       $SG4294967085              0042516c     cjpeg.obj
+ 0003:00002184       $SG4294967086              00425184     cjpeg.obj
+ 0003:0000219c       $SG4294966245              0042519c     rdswitch.obj
+ 0003:000021c4       $SG4294966246              004251c4     rdswitch.obj
+ 0003:000021d0       $SG4294966247              004251d0     rdswitch.obj
+ 0003:00002200       $SG4294966248              00425200     rdswitch.obj
+ 0003:00002208       $SG4294966249              00425208     rdswitch.obj
+ 0003:00002210       $SG4294966250              00425210     rdswitch.obj
+ 0003:00002230       $SG4294966251              00425230     rdswitch.obj
+ 0003:00002258       $SG4294966252              00425258     rdswitch.obj
+ 0003:00002284       $SG4294966253              00425284     rdswitch.obj
+ 0003:000022a8       $SG4294966254              004252a8     rdswitch.obj
+ 0003:000022cc       $SG4294966255              004252cc     rdswitch.obj
+ 0003:000022d0       $SG4294966256              004252d0     rdswitch.obj
+ 0003:000022f0       $SG4294966257              004252f0     rdswitch.obj
+ 0003:00002310       $SG4294966258              00425310     rdswitch.obj
+ 0003:0000232c       $SG4294966259              0042532c     rdswitch.obj
+ 0003:00002348       $SG4294966260              00425348     rdswitch.obj
+ 0003:0000234c       $SG4294965537              0042534c     jpeg:jerror.obj
+ 0003:00002350       $SG4294964905              00425350     jpeg:jmemmgr.obj
+ 0003:00002358       $SG4294964906              00425358     jpeg:jmemmgr.obj
+ 0003:00002368       _GS_ExceptionRecord        00425368     MSVCRT:gs_report.obj
+ 0003:000023b8       _GS_ContextRecord          004253b8     MSVCRT:gs_report.obj
+ 0003:0000268c       ?is_initialized_as_dll@@3_NA 0042568c     MSVCRT:utility.obj
+ 0003:0000268d       ?module_local_atexit_table_initialized@@3_NA 0042568d     MSVCRT:utility.obj
+ 0003:00002690       ?module_local_atexit_table@@3U_onexit_table_t@@A 00425690     MSVCRT:utility.obj
+ 0003:0000269c       ?module_local_at_quick_exit_table@@3U_onexit_table_t@@A 0042569c     MSVCRT:utility.obj
+ 0003:000026bc       ?printed_version@?O@??parse_switches@@9@9 004256bc     cjpeg.obj
+ 0003:000026bd       _is_targa                  004256bd     cjpeg.obj
+ 0003:000026be       $SG4294967067              004256be     cjpeg.obj
+ 0003:000026bf       $SG4294967069              004256bf     cjpeg.obj
+ 0003:000026c0       _progname                  004256c0     cjpeg.obj
+ 0003:000026c4       _outfilename               004256c4     cjpeg.obj
+ 0004:00000060       $R000000                   00426060     * linker generated manifest res *
