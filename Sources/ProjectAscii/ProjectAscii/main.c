@@ -5,9 +5,9 @@
 
 // 아스키 문자 세트
 struct ImageInfo{
-    char *ascii_chars;
-    char *filename;
-}IMAGEINFO;
+    char ascii_chars[11];
+    char filename[256];
+};
 
 
 // 이미지를 아스키 아트로 변환하는 함수
@@ -48,9 +48,36 @@ int main() {
     // JPEG 이미지 파일 경로
 
     struct ImageInfo info;
-    info.ascii_chars = "@%#*+=-:. ";
-    info.filename = "image.jpg";
+    strcpy_s(info.ascii_chars, sizeof(info.ascii_chars), "@%#*+=-:. ");
+    strcpy_s(info.filename, sizeof(info.filename), "image.jpg");
+    char changeAscii;
+    int charIndex;
+    char changeAsciiword;
+    while (1)
+    {
+        printf("아스키 아트 생성에 사용할 문자를 변경하시겠습니까?(Y/N)\n현재 문자(%s) ", info.ascii_chars, sizeof(info.ascii_chars));
+        scanf_s(" %c", &changeAscii,sizeof(changeAscii));
+        if (changeAscii == 'Y' || changeAscii == 'y') {
+            printf("변경할 문자의 번호를 입력하세요.\n현재 문자(%s) ", info.ascii_chars, sizeof(info.ascii_chars));
+            scanf_s("%d", &charIndex);
+            printf("변경할 문자를 입력하세요.\n현재 문자(%s) ", info.ascii_chars, sizeof(info.ascii_chars));
+            scanf_s(" %c", &changeAsciiword,sizeof(changeAsciiword));
+            info.ascii_chars[charIndex - 1] = changeAsciiword;
+        }
+        else if (changeAscii == 'N' || changeAscii == 'n') {
+            break;
+        }
+        else
+        {
+            printf("Y 또는 N만 입력해주세요.");
+        }
 
+        // 개행 문자 처리
+        while (getchar() != '\n');
+    }
+
+    printf("jpeg 파일의 경로를 입력해주세요. ");
+    scanf_s("%s", info.filename, sizeof(info.filename));
 
     // JPEG 파일을 읽기 모드로 열기
     FILE* file = fopen(info.filename, "rb");
