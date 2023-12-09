@@ -49,7 +49,6 @@ int main() {
 
     struct ImageInfo info;
     strcpy_s(info.ascii_chars, sizeof(info.ascii_chars), "@%#*+=-:. ");
-    strcpy_s(info.filename, sizeof(info.filename), "image.jpg");
     char changeAscii;
     int charIndex;
     char changeAsciiword;
