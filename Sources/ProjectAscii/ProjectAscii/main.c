@@ -2,47 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <jpeglib.h>
-
-// 아스키 문자 세트
-struct ImageInfo{
-    char ascii_chars[11];
-    char filename[256];
-};
-
-
-// 이미지를 아스키 아트로 변환하는 함수
-void changeToAscii(unsigned char* image, int width, int height, struct ImageInfo *info) {
-    int gray;
-    int index;
-
-    for (int i = height; i > 0; i-=10) {
-        for (int j = 0; j < width; j+=10) {
-            int sum = 0;
-            //밝기 합 구함
-            for (int k = 0; k < 10; k++) {
-                for (int l = 0; l < 10; l++) {
-                    int row = i + k;
-                    int col = j + l;
-                    if (row < height && col < width) {
-                        index = (row * width + col) * 3;
-                                // RGB 값을 흑백으로 변환
-                        sum += (int)(0.2989 * image[index] + 0.5870 * image[index + 1] + 0.1140 * image[index + 2]);
-                    }
-                }
-            }
-
-            //평균 밝기 계산
-            int average = sum / 100;
-            // 밝기에 따라 아스키 문자 선택하여 출력
-            int char_index = (average * (sizeof(info->ascii_chars) - 1)) / 255;
-            printf("%c", info->ascii_chars[char_index]);
-
-        }
-        printf("\n");
-    }
-}
-
-
+#include "chAscii.h"
 
 int main() {
     // JPEG 이미지 파일 경로
@@ -75,7 +35,7 @@ int main() {
         while (getchar() != '\n');
     }
 
-    printf("jpeg 파일의 경로를 입력해주세요. ");
+    printf("jpeg 파일의 이름을 입력해주세요. ");
     scanf_s("%s", info.filename, sizeof(info.filename));
 
     // JPEG 파일을 읽기 모드로 열기
