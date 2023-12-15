@@ -79,7 +79,7 @@ int main() {
         printf("몇 곱하기 몇 픽셀 당 하나의 문자를 할당할 것인지 입력해주세요(숫자 하나만 입력): ");
         scanf_s("%d", &info.size);
         if (info.size > cinfo.output_width || info.size > cinfo.output_height) {
-            printf("사진의 크기보다 클 수 없습니다.");
+            printf("사진의 크기보다 클 수 없습니다.\n");
         }
         else {
             break;
