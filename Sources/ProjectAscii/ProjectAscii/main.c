@@ -8,7 +8,7 @@ int main() {
     // JPEG 이미지 파일 경로
 
     struct ImageInfo info;
-    strcpy_s(info.ascii_chars, sizeof(info.ascii_chars), "@%#*+=-:. ");
+    strcpy_s(info.ascii_chars, sizeof(info.ascii_chars), " .:-=+*#%@");
     char changeAscii;
     int charIndex;
     char changeAsciiword;
@@ -17,9 +17,9 @@ int main() {
         printf("아스키 아트 생성에 사용할 문자를 변경하시겠습니까?(Y/N)\n현재 문자(%s) ", info.ascii_chars, sizeof(info.ascii_chars));
         scanf_s(" %c", &changeAscii,sizeof(changeAscii));
         if (changeAscii == 'Y' || changeAscii == 'y') {
-            printf("변경할 문자의 번호를 입력하세요.\n현재 문자(%s) ", info.ascii_chars, sizeof(info.ascii_chars));
+            printf("변경할 문자의 번호를 입력하세요.\n현재 문자(%s) ", &info.ascii_chars, sizeof(info.ascii_chars));
             scanf_s("%d", &charIndex);
-            printf("변경할 문자를 입력하세요.\n현재 문자(%s) ", info.ascii_chars, sizeof(info.ascii_chars));
+            printf("변경할 문자를 입력하세요.\n현재 문자(%s) ", &info.ascii_chars, sizeof(info.ascii_chars));
             scanf_s(" %c", &changeAsciiword,sizeof(changeAsciiword));
             info.ascii_chars[charIndex - 1] = changeAsciiword;
         }
@@ -36,7 +36,7 @@ int main() {
     }
 
     printf("jpeg 파일의 이름을 입력해주세요. ");
-    scanf_s("%s", info.filename, sizeof(info.filename));
+    scanf_s("%s", &info.filename, sizeof(info.filename));
 
     // JPEG 파일을 읽기 모드로 열기
     FILE* file = fopen(info.filename, "rb");
@@ -71,6 +71,19 @@ int main() {
     while (cinfo.output_scanline < cinfo.output_height) {
         unsigned char* row_pointer = &image[(cinfo.output_height - cinfo.output_scanline - 1) * cinfo.output_width * cinfo.output_components];
         jpeg_read_scanlines(&cinfo, &row_pointer, 1);
+    }
+
+    //사이즈 설정
+    while (1)
+    {
+        printf("몇 곱하기 몇 픽셀 당 하나의 문자를 할당할 것인지 입력해주세요(숫자 하나만 입력): ");
+        scanf_s("%d", &info.size);
+        if (info.size > cinfo.output_width || info.size > cinfo.output_height) {
+            printf("사진의 크기보다 클 수 없습니다.");
+        }
+        else {
+            break;
+        }
     }
 
     // 이미지 출력

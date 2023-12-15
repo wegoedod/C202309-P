@@ -1,6 +1,4 @@
 ﻿  main.c
-  chAscii.c
-  코드를 생성하고 있습니다...
 C:\Users\gksmf\OneDrive\바탕 화면\notebook\C\c202309-p\Sources\ProjectAscii\ProjectAscii\main.c(17,135): warning C4474: 'printf' : 서식 문자열에 전달된 인수가 너무 많습니다.
   C:\Users\gksmf\OneDrive\바탕 화면\notebook\C\c202309-p\Sources\ProjectAscii\ProjectAscii\main.c(17,135):
   자리 표시자 및 해당 매개 변수에는 variadic 인수가 1개 필요하지만 2개가 제공되었습니다.
@@ -9,12 +7,12 @@ C:\Users\gksmf\OneDrive\바탕 화면\notebook\C\c202309-p\Sources\ProjectAscii\
   C:\Users\gksmf\OneDrive\바탕 화면\notebook\C\c202309-p\Sources\ProjectAscii\ProjectAscii\main.c(18,17):
   이 인수는 버퍼 크기로 사용됩니다.
   
-C:\Users\gksmf\OneDrive\바탕 화면\notebook\C\c202309-p\Sources\ProjectAscii\ProjectAscii\main.c(20,108): warning C4474: 'printf' : 서식 문자열에 전달된 인수가 너무 많습니다.
-  C:\Users\gksmf\OneDrive\바탕 화면\notebook\C\c202309-p\Sources\ProjectAscii\ProjectAscii\main.c(20,108):
+C:\Users\gksmf\OneDrive\바탕 화면\notebook\C\c202309-p\Sources\ProjectAscii\ProjectAscii\main.c(20,109): warning C4474: 'printf' : 서식 문자열에 전달된 인수가 너무 많습니다.
+  C:\Users\gksmf\OneDrive\바탕 화면\notebook\C\c202309-p\Sources\ProjectAscii\ProjectAscii\main.c(20,109):
   자리 표시자 및 해당 매개 변수에는 variadic 인수가 1개 필요하지만 2개가 제공되었습니다.
   
-C:\Users\gksmf\OneDrive\바탕 화면\notebook\C\c202309-p\Sources\ProjectAscii\ProjectAscii\main.c(22,98): warning C4474: 'printf' : 서식 문자열에 전달된 인수가 너무 많습니다.
-  C:\Users\gksmf\OneDrive\바탕 화면\notebook\C\c202309-p\Sources\ProjectAscii\ProjectAscii\main.c(22,98):
+C:\Users\gksmf\OneDrive\바탕 화면\notebook\C\c202309-p\Sources\ProjectAscii\ProjectAscii\main.c(22,99): warning C4474: 'printf' : 서식 문자열에 전달된 인수가 너무 많습니다.
+  C:\Users\gksmf\OneDrive\바탕 화면\notebook\C\c202309-p\Sources\ProjectAscii\ProjectAscii\main.c(22,99):
   자리 표시자 및 해당 매개 변수에는 variadic 인수가 1개 필요하지만 2개가 제공되었습니다.
   
 C:\Users\gksmf\OneDrive\바탕 화면\notebook\C\c202309-p\Sources\ProjectAscii\ProjectAscii\main.c(23,21): warning C4477: 'scanf_s' : 서식 문자열 '%c'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'size_t'입니다.
@@ -25,7 +23,8 @@ C:\Users\gksmf\OneDrive\바탕 화면\notebook\C\c202309-p\Sources\ProjectAscii\
   C:\Users\gksmf\OneDrive\바탕 화면\notebook\C\c202309-p\Sources\ProjectAscii\ProjectAscii\main.c(39,13):
   이 인수는 버퍼 크기로 사용됩니다.
   
-C:\Users\gksmf\OneDrive\바탕 화면\notebook\C\c202309-p\Sources\ProjectAscii\ProjectAscii\chAscii.c(6,9): warning C4101: 'gray' :참조되지 않은 지역 변수입니다.
+C:\Users\gksmf\OneDrive\바탕 화면\notebook\C\c202309-p\Sources\ProjectAscii\ProjectAscii\main.c(81,23): warning C4018: '>': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\gksmf\OneDrive\바탕 화면\notebook\C\c202309-p\Sources\ProjectAscii\ProjectAscii\main.c(81,57): warning C4018: '>': signed 또는 unsigned가 일치하지 않습니다.
   jpeg.lib(jerror.obj) : /GL로 컴파일한 MSIL .netmodule 또는 모듈이 있습니다. /LTCG를 지정하여 링크를 다시 시작하십시오. /LTCG를 링크 명령줄에 추가하면 링커 성능이 향상됩니다.
 LINK : warning LNK4075: '/INCREMENTAL'이(가) '/LTCG' 사양으로 인해 무시됩니다.
 LINK : warning LNK4098: 'MSVCRT' defaultlib가 다른 라이브러리와 충돌합니다. /NODEFAULTLIB:library를 사용하십시오.
