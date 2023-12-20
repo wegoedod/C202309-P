@@ -5,8 +5,6 @@
 #include "chAscii.h"
 
 int main() {
-    // JPEG 이미지 파일 경로
-
     struct ImageInfo info;
     strcpy_s(info.ascii_chars, sizeof(info.ascii_chars), " .:-=+*#%@");
     char changeAscii;
@@ -19,6 +17,10 @@ int main() {
         if (changeAscii == 'Y' || changeAscii == 'y') {
             printf("변경할 문자의 번호를 입력하세요.\n현재 문자(%s) ", &info.ascii_chars, sizeof(info.ascii_chars));
             scanf_s("%d", &charIndex);
+            if ((charIndex > 10) || (charIndex < 1)) {
+                printf("1~10 사이의 숫자만 입력해주세요.\n");
+                continue;
+            }
             printf("변경할 문자를 입력하세요.\n현재 문자(%s) ", &info.ascii_chars, sizeof(info.ascii_chars));
             scanf_s(" %c", &changeAsciiword,sizeof(changeAsciiword));
             info.ascii_chars[charIndex - 1] = changeAsciiword;
